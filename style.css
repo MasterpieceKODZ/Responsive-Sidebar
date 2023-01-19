@@ -105,3 +105,33 @@ body {
 	font-size: 25px;
 	cursor: pointer;
 }
+
+@media (min-width: 550px) {
+	#navbar-nav {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-right: 20px;
+	}
+
+	.nav-item {
+		margin-inline: 6px;
+		font-family: fantasy;
+		font-weight: bold;
+		font-size: 12px;
+		color: black;
+		cursor: pointer;
+	}
+
+	.nav-item:hover {
+		color: goldenrod;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.toggle-btn {
+		display: none;
+	}
+}
